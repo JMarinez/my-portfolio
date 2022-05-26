@@ -40,7 +40,9 @@ class ProjectDetail extends StatelessWidget {
                       child: Text(
                         project.year.toString(),
                         style: const TextStyle(
-                            fontSize: 14.0, color: Colors.white),
+                          fontSize: 14.0,
+                          color: Colors.white,
+                        ),
                       ),
                       decoration: BoxDecoration(
                         color: Colors.black,
@@ -63,7 +65,10 @@ class ProjectDetail extends StatelessWidget {
                 const SizedBox(height: 10.0),
                 const Text(
                   'Technologies',
-                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                  style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
                 const SizedBox(height: 10.0),
                 HorizontalTechView(
