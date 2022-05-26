@@ -29,9 +29,9 @@ class ProjectDetail extends StatelessWidget {
                     BackButton(
                       onPressed: () => Navigator.pop(context),
                     ),
-                    const Text(
-                      'Flutter Finance',
-                      style: TextStyle(
+                    Text(
+                      project.name,
+                      style: const TextStyle(
                           fontWeight: FontWeight.bold, fontSize: 20.0),
                     ),
                     const Spacer(),
