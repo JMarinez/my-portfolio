@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:share_plus/share_plus.dart';
 import 'package:my_portfolio/components/header.dart';
 import 'package:my_portfolio/example/projects.dart';
 import 'package:my_portfolio/responsive.dart';
@@ -24,7 +25,8 @@ class HomePage extends StatelessWidget {
           color: Colors.white,
         ),
         onPressed: (() {
-          print('Button pressed');
+          Share.share(
+              "Check out Juan's portfolio https://jmarinez-portfolio.web.app/#/");
         }),
       ),
       body: SafeArea(
