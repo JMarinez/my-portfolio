@@ -4,7 +4,6 @@ import 'package:my_portfolio/components/header.dart';
 import 'package:my_portfolio/example/projects.dart';
 import 'package:my_portfolio/responsive.dart';
 
-import '../../components/intro_card.dart';
 import '../../components/project_card.dart';
 
 class HomePage extends StatelessWidget {
